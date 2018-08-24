@@ -1,0 +1,29 @@
+{
+  "name": "airbnb-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --recursive test"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3",
+    "strong-params": "^0.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "should-http": "^0.1.1",
+    "supertest": "^3.1.0"
+  }
+}

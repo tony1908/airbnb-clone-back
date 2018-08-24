@@ -1,0 +1,32 @@
+Arguments: 
+  /Users/antonio/.nvm/versions/node/v10.7.0/bin/node /usr/local/Cellar/yarn/1.9.2/libexec/bin/yarn.js add express
+
+PATH: 
+  /Users/antonio/.nvm/versions/node/v10.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  10.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npm.wsjfdev.dowjones.net registry.npm.wsjfdev.dowjones.net:80
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "airbnb-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
